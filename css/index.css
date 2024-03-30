@@ -1,0 +1,22 @@
+body{
+    padding:50px;
+    background-color: #264653;
+}
+
+.btn{
+    background-color: #012a4a;
+    border: #2a9d8f solid 1px;
+}
+
+.card-header{
+    background-color: #01497c;
+    color: #ebebeb;
+}
+
+.card-body{
+    background-color: #a9d6e5;
+}
+
+h1{
+    color: white;
+}
