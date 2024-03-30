@@ -12,8 +12,8 @@ function displayData(){
     testData.focusOff--
 
     document.getElementById("card-body").innerHTML = `<p class="card-text">
-    Answer: ` + testData.answer + `<br>Off focus: ` + testData.focusOff +  
-    `</p>`
+    Answer: ` + testData.answer + `<br>Student went off screen ` + testData.focusOff +  
+    ` times</p>`
 
 }
 
