@@ -15,8 +15,35 @@ body{
 
 .card-body{
     background-color: #a9d6e5;
+    font-size: 30px;
 }
 
 h1{
     color: white;
 }
+
+.offcounter{
+    border: 2px solid red;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.cpdetect{
+    font-size: 30px;
+    animation: animate 1.5s linear infinite; 
+    font-family: serif; 
+    color:red; 
+    text-align: center; 
+}
+
+@keyframes animate{ 
+    0%{ 
+      opacity: 0; 
+    } 
+    50%{ 
+      opacity: 0.7; 
+    } 
+    100%{ 
+      opacity: 0; 
+    } 
+  } 
